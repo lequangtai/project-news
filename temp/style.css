@@ -1,0 +1,166 @@
+/* CSS Document */
+@charset "utf-8";
+*{
+	margin:0px;
+	padding:0px;
+}
+#banner  {
+	height: 180px;
+	width: 100%;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+#content {
+	height: auto;
+	width: 100%;
+	float:left;
+	margin-bottom:15px;
+}
+#menu {
+	height: 35px;
+	width: 100%;
+	background-color: #EB181C;
+	/*line-height:2px;*/
+	/*margin-bottom:5px;*/
+	padding-top: 32px;
+	padding-bottom: 11px;
+}
+#wrapper {
+	margin-left:auto;
+	margin-right:auto;
+	width:1000px;
+}
+#menu .ul_menu .li_menu {
+	list-style-type:none;
+	padding-left:10px;
+	padding-right:10px;
+	height:25px;
+	float:left;
+	text-decoration:none;
+	padding-top:12px;
+	text-align: center;
+}
+#menu .ul_menu .li_menu:hover
+{
+	height:35px;
+	color:#21E5E2;
+	background-color:#2AF11A;
+	margin-bottom: 5px;
+}
+
+.banner_top{
+	background-color: #DFDCDC; 
+	width: 100%; 
+	height: 40px;
+}
+.banner_top .ul_top {
+	float: right;
+}
+.banner_top .ul_top .li_top {
+	list-style-type: none;
+	text-decoration: none;
+	float: left;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top: 10px;
+}
+#footer
+{
+	width:100%;
+	height:60px;
+	color:#5C5A5A;
+	font-size:15px;
+	text-align:center;
+	line-height:20px;
+	font-style:italic;
+	background-image:url(image/footer_bg.gif);
+	padding-top:5px;
+}
+div #content-left {
+	width:70%;
+	height: auto;
+	float:left;
+	border:#F80B0F;
+	border-spacing:2px;
+}
+div #content-right {
+	width:29%;
+	height:auto;
+	float:right;
+}
+div .xoa {
+	clear:both;
+}
+div .box {
+	width:auto;
+	height:auto;
+	border:1px solid #DCDCDC;
+	padding:5px;
+}
+div .box-left, .box-right {
+	width:49.5%;
+	height:auto;
+	float:left;
+}
+div .box-right{
+	background-color:#FFF;
+	float:right;
+	overflow:hidden;
+	height:auto;
+	padding:5px;
+	width:48%;
+}
+div .box-right ul{
+	margin-left:20px;
+}
+div .box-left img {
+	width:100%;
+	
+}
+p.tieude{
+	color:#0B10EC;
+	font-size:25px;
+	font-weight:bold;
+}
+p.tomtat{
+	text-indent:20px;
+}
+div .box-tin {
+	border-bottom:1px dotted #DFDCDC;
+	padding-bottom:5px;
+	padding-top:5px;
+}
+div .box-tin img {
+	width:100px;
+	float:left;
+	margin-right:10px;
+}
+div .tieudebox {
+	background-image:url(image/box2.png);
+	height:29px;
+	background-repeat:no-repeat;
+	margin-bottom:5px;
+	padding-top:5px;
+	padding-left:50px;
+	color:#ED0A27;
+}
+div .no-padding {
+	padding:0px;
+}
+div .no-border {
+	border:none;
+}
+#menu ul li a {
+	text-decoration:none;
+	color:#03085B;
+}
+p.tieude a {
+	text-decoration:none;
+	color:#07F0CF;
+}
+p.tieude a:hover {
+	color:#F04006;
+}
+
+
+
